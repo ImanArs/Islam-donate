@@ -1,0 +1,26 @@
+.News {
+  @apply mt-[100px] max-w-[1440px] w-[100%];
+  &_top {
+    @apply w-[80%] m-auto;
+    &__lastNews {
+      @apply flex justify-between items-center;
+      &_left {
+        h3 {
+
+        }
+        p {
+          @apply py-[40px]
+        }
+      }
+      img {
+        @apply w-[600px]
+      }
+    }
+  }
+  &_wrapper {
+    @apply w-[90%] m-auto grid grid-cols-3 justify-center ;
+    &__card {
+      @apply w-[90%] flex justify-center mt-[20px];
+    }
+  }
+}

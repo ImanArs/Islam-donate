@@ -1,0 +1,107 @@
+.Home {
+  margin-top: 100px;
+  &_heroUSSR {
+    &__top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      span {
+        color: rgb(214, 63, 17);
+        font-size: 32px;
+      }
+      h1 {
+        font-size: 28px;
+      }
+      img {
+        width: 500px;
+        border-radius: 25px;
+      }
+    }
+  }
+  &_aboutUs {
+    margin-top: 100px;
+    width: 100%;
+    margin: 0 auto;
+    h2 {
+      text-align: left;
+    }
+    &__wrapper {
+      display: flex;
+      align-items: center;
+      p {
+        font-size: 18px;
+      }
+      img {
+
+      }
+    }
+  }
+  &_heroMerit {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__left {
+      width: 50%;
+      img {
+        width: 700px;
+        border-radius: 25px;
+      }
+    }
+    &__right {
+      width: 50%;
+      h2 {
+        font-size: 28px;
+        font-weight: 400;
+        color: rgb(214, 63, 17);
+      }
+      p {
+        margin: 40px 0;
+        font-size: 18px;
+        font-weight: 300;
+      }
+      button {
+        padding: 15px 20px;
+        background: #ffffff3a;
+        border: 1px solid rgb(214, 63, 17);
+        border-radius: 15px;
+        color: rgb(214, 63, 17);
+        text-decoration: underline;
+        transition: ease-in-out .2s;
+        &:hover {
+          background: rgb(214, 63, 17);
+          border: 1px solid #fff;
+          color: #fff;
+        }
+      }
+    }
+  }
+  &_heroHelp {
+    margin-top: 100px;
+    &__top {
+      h2 {
+        font-size: 28px;
+        font-weight: 400;
+        color: rgb(214, 63, 17);
+      }
+      p {
+        margin: 30px 0;
+      }
+    }
+    &__bottom {
+      display: flex;
+      img {
+        width: 20%;
+      }
+    }
+  }
+  &_news {
+    margin-top: 100px;
+    &__wrapper {
+      margin: 50px 0;
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
+}

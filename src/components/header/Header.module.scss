@@ -1,0 +1,30 @@
+.header {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #000;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 18px;
+  font-weight: 300;
+  &__logo {
+    img {
+      width: 60px;
+    }
+  }
+  &_nav {
+    ul {
+      display: flex;
+      gap: 60px;
+      li {
+        a {
+          font-size: 18px;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}

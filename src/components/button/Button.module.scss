@@ -1,0 +1,14 @@
+.button {
+  padding: 15px 20px;
+  background: #ffffff3a;
+  border: 1px solid rgb(214, 63, 17);
+  border-radius: 15px;
+  color: rgb(214, 63, 17);
+  text-decoration: underline;
+  transition: ease-in-out .2s;
+  &:hover {
+    background: rgb(214, 63, 17);
+    border: 1px solid #fff;
+    color: #fff;
+  }
+}

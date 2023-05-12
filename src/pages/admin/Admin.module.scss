@@ -1,0 +1,20 @@
+.admin {
+  @apply max-w-[1440px] w-[100%];
+  &_left {
+    h3 {
+
+    }
+    p {
+
+    }
+    form {
+      @apply w-[400px] flex flex-col;
+      input {
+        @apply border;
+      }
+      textarea {
+        @apply border
+      }
+    }
+  }
+}

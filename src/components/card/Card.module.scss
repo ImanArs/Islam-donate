@@ -1,0 +1,20 @@
+.Card {
+  @apply border p-[20px] w-[350px];
+  img {
+    @apply w-[300px]
+  }
+  &_wrapper {
+    h3 {
+      @apply text-[24px];
+    }
+    p {
+      @apply w-[300px] h-[50px] text-[18px] font-[300] text-ellipsis whitespace-nowrap overflow-hidden;
+    }
+    button {
+      @apply  p-[10px] border border-[#D63F11] rounded-xl underline text-[#D63F11];
+      &:hover {
+        @apply bg-[#D63F11] text-[#fff]
+      }
+    }
+  }
+}

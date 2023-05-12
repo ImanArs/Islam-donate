@@ -1,0 +1,12 @@
+.login {
+  @apply max-w-[1440px] w-[100%];
+  form {
+    @apply flex flex-col w-[50%] m-auto  mt-[100px] gap-[10px];
+    input {
+      @apply w-[100%] h-[100%] border p-[10px];
+    }
+    button {
+      @apply py-[10px] border
+    }
+  }
+}
